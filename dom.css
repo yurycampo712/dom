@@ -1,0 +1,41 @@
+body{
+    background: #9f69f7;
+}
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.elemento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+.tarea{
+    margin: 0;
+    flex-grow: 1;
+}
+
+.color{
+    background-color: #4CAF50;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.colorelim{
+    background-color: #ee1e1e;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
